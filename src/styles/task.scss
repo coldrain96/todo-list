@@ -1,0 +1,11 @@
+.task-list {
+  padding: 0;
+  &__item {
+    font-size: 18px;
+    list-style-type: none;
+    margin-bottom: 6px;
+    & button {
+      margin-left: 6px;
+    }
+  }
+}
